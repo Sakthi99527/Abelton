@@ -1,0 +1,380 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-size: 22px;
+}
+.name{
+    font-size: 8rem;
+    color: orangered;
+}
+
+.video1{
+    margin-left: 25%;
+    margin-top: 30px;
+
+}
+
+.app{
+    background-image: url("https://ableton-production.imgix.net/about/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    margin-left: 5%;
+    margin-top: 10px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+
+    list-style-type: none;
+    padding: 1rem;
+    background-color: white;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.right{
+    display: flex;
+    font-size: 22px;
+    justify-content: space-between;
+}
+.app-login{
+    display: flex;
+    gap: 5px;
+}
+.free{
+    color: rgba(121, 121, 235, 0.822);
+}
+li{
+    display: inline-block;
+    margin-inline: 1rem;
+    font-weight: bold;
+}
+.child{
+    color: red;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+.img{
+    margin-left: 20%;
+}
+.high{
+    color: blue;
+}
+.font{
+     font-size: 2rem;
+     color:black;
+     display: grid;
+     grid-template-rows: 2fr;
+     text-align:center;
+     gap: 2rem;
+     margin-top: 10vh;
+     width: 40ch;
+     margin-left: 30%;
+}
+.fon{
+    font-size: 2rem;
+    color:black;
+    display: grid;
+    grid-template-rows: 2fr;
+    text-align:center;
+    gap: 2rem;
+    top: 2vh;
+    width: 40ch;
+    margin-left: 30%;
+}
+
+.p{
+    text-align: right;
+    justify-content: right;
+    color: blue;
+
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 10vh;
+    height: 150vh;
+    width: 100%;
+}
+
+
+
+
+.abl{
+    width: 700px;
+    height: 90vh;
+    
+}
+
+.abl2{
+    height: 50vh;
+    width: 500px;
+    
+}
+
+.image{
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+    height: 110vh;
+    width: 800px;
+    z-index: 0;
+
+}
+
+.head{
+    position: absolute;
+    left: 0;
+    margin-top: 30vh;
+    top: 0;
+    z-index: 1;
+}
+
+.main-element{
+    display: flex;
+    align-items: center;
+    height: 140vh;
+    width:70%;
+    background-color: rgba(93, 218, 93, 0.678);
+    position: relative;
+    padding: 120px;
+    margin-bottom: 5%;
+margin-top: 5vh;
+}
+
+.first{
+    width:50%;
+    position: absolute;
+    margin-left: 5%;
+    margin-bottom: 5%; 
+}
+.second3{
+    width:50%;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 20vh;
+}
+.three{
+    width:60%;
+    right: 0;
+ 
+ 
+}
+.one{
+    z-index: 1;
+    top: 0;
+    margin-bottom: 100%;
+}
+.sec{
+    z-index: 0;
+    margin-bottom: 25%;
+}
+.thr{
+   
+    width:90%;
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 20vh;
+}
+.hi{
+   align-items: center;
+    font-style: normal;
+    font-size: 20px;
+
+    color: rgba(0, 0, 0, 0.747);
+}
+.bi{
+    align-items: center;
+    font-style: normal;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.747);
+    width: 69ch;
+    margin-top: 0%;
+    margin-left: 5%;
+}
+.hii{
+    align-items: center;
+    font-style: normal;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.747);
+    width: 69ch;
+    margin-top: 5vh;
+    margin-left: 33%;
+
+}
+.pict{
+    margin-left: 3%;
+}
+
+.new-image{
+    background-color: rgb(173, 57, 173);
+    width: 900px;
+    height: 110vh;
+    z-index: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.picture1 , .picture2{
+    z-index: 1;
+}
+.picture1{
+    width: 500px;
+    height: 55vh;
+    position: absolute;
+    left: 90px;
+
+}
+.grid-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 110vh;
+    z-index: 0;
+    position: relative;
+
+}
+.picture2{
+    width: 450px;
+    height: 80vh;
+    position: absolute;
+    right: 0;
+}
+
+.bk1{
+    width: 600px;
+    height: 80vh;
+}
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.63);
+}
+.container{
+    height: 150vh;
+    width: 100%;
+}
+.bc-image{
+   height: 90vh;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.para{
+  width: 26ch;
+}
+.app-con{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+
+a{
+    text-decoration: none;
+    margin-top: 13%;
+  
+}
+
+.last{
+    font-size: 22px;
+    display:grid ;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+.let2{
+    font-size: 22px;
+    text-align: center;
+
+}
+
+.app-footer{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-about-footer{
+    display: grid;
+    width: 100%;
+    height: 50vh;
+    grid-template-columns: 2fr 2fr 2fr;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+.app-email{
+    width: 350px;
+}
+.app-logo h1{
+   margin-bottom: 40px;
+   font-size: 3rem;
+}
+.paragraph{
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+.email{
+    margin-top: 10px;
+}
+.app-community-lang{
+    display: flex;
+    width: 900px;
+    height: 15vh;
+    justify-content: space-around;
+    align-items: center;
+}
+label{
+    position: absolute;
+    left: -9999px;
+}
+.email input{
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 5px;
+}
+.sign-in{
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: blue;
+    color: white;
+}
+
+
+
+
+.ri{
+    display: flex;
+    font-size: 15px;
+    margin-top: 5vh;
+    margin-left: 4%;
+}
+li{
+    display: inline-block;
+    margin-inline: 5px;
+    font-weight: bold;
+} 
